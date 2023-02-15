@@ -14,6 +14,7 @@
 		4BA36C8C299CC21800DBFF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA36C8B299CC21800DBFF26 /* Assets.xcassets */; };
 		4BA36C8F299CC21800DBFF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA36C8D299CC21800DBFF26 /* LaunchScreen.storyboard */; };
 		4BA36C92299CC21800DBFF26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA36C91299CC21800DBFF26 /* main.m */; };
+		4BA36C99299CC61400DBFF26 /* OCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA36C98299CC61400DBFF26 /* OCClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4BA36C8E299CC21800DBFF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BA36C90299CC21800DBFF26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BA36C91299CC21800DBFF26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BA36C98299CC61400DBFF26 /* OCClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCClass.m; sourceTree = "<group>"; };
+		4BA36C9A299CC61D00DBFF26 /* OCClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				4BA36C8D299CC21800DBFF26 /* LaunchScreen.storyboard */,
 				4BA36C90299CC21800DBFF26 /* Info.plist */,
 				4BA36C91299CC21800DBFF26 /* main.m */,
+				4BA36C9A299CC61D00DBFF26 /* OCClass.h */,
+				4BA36C98299CC61400DBFF26 /* OCClass.m */,
 			);
 			path = LinkSwiftAndObjectiveC;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			files = (
 				4BA36C87299CC21700DBFF26 /* ViewController.m in Sources */,
 				4BA36C81299CC21700DBFF26 /* AppDelegate.m in Sources */,
+				4BA36C99299CC61400DBFF26 /* OCClass.m in Sources */,
 				4BA36C92299CC21800DBFF26 /* main.m in Sources */,
 				4BA36C84299CC21700DBFF26 /* SceneDelegate.m in Sources */,
 			);
