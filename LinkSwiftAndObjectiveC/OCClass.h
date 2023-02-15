@@ -9,6 +9,10 @@
 
 @interface OCClass : NSObject
 
-@property (
+@property int count;
+
+- (void)sayHello;
+
+- (void)test;
 
 @end

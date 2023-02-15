@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import "OCClass.h"
+#import "LinkSwiftAndObjectiveC-Swift.h";
 
 @interface ViewController ()
 
@@ -16,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+//    OCClass *ocClass = [[OCClass alloc] init];
+//    [ocClass test];
+    SwiftClass *swiftClass = [[SwiftClass alloc] init];
+    [swiftClass test];
 }
 
 

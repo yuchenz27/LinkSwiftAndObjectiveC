@@ -15,6 +15,7 @@
 		4BA36C8F299CC21800DBFF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA36C8D299CC21800DBFF26 /* LaunchScreen.storyboard */; };
 		4BA36C92299CC21800DBFF26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA36C91299CC21800DBFF26 /* main.m */; };
 		4BA36C99299CC61400DBFF26 /* OCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA36C98299CC61400DBFF26 /* OCClass.m */; };
+		4BA36C9D299CCA3900DBFF26 /* SwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA36C9C299CCA3900DBFF26 /* SwiftClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		4BA36C91299CC21800DBFF26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BA36C98299CC61400DBFF26 /* OCClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCClass.m; sourceTree = "<group>"; };
 		4BA36C9A299CC61D00DBFF26 /* OCClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCClass.h; sourceTree = "<group>"; };
+		4BA36C9B299CCA3900DBFF26 /* LinkSwiftAndObjectiveC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkSwiftAndObjectiveC-Bridging-Header.h"; sourceTree = "<group>"; };
+		4BA36C9C299CCA3900DBFF26 /* SwiftClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				4BA36C91299CC21800DBFF26 /* main.m */,
 				4BA36C9A299CC61D00DBFF26 /* OCClass.h */,
 				4BA36C98299CC61400DBFF26 /* OCClass.m */,
+				4BA36C9C299CCA3900DBFF26 /* SwiftClass.swift */,
+				4BA36C9B299CCA3900DBFF26 /* LinkSwiftAndObjectiveC-Bridging-Header.h */,
 			);
 			path = LinkSwiftAndObjectiveC;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 				TargetAttributes = {
 					4BA36C7B299CC21700DBFF26 = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -153,6 +159,7 @@
 			files = (
 				4BA36C87299CC21700DBFF26 /* ViewController.m in Sources */,
 				4BA36C81299CC21700DBFF26 /* AppDelegate.m in Sources */,
+				4BA36C9D299CCA3900DBFF26 /* SwiftClass.swift in Sources */,
 				4BA36C99299CC61400DBFF26 /* OCClass.m in Sources */,
 				4BA36C92299CC21800DBFF26 /* main.m in Sources */,
 				4BA36C84299CC21700DBFF26 /* SceneDelegate.m in Sources */,
@@ -296,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P9TVSH3F53;
@@ -314,6 +322,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuchen.LinkSwiftAndObjectiveC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkSwiftAndObjectiveC/LinkSwiftAndObjectiveC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -323,6 +334,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = P9TVSH3F53;
@@ -341,6 +353,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuchen.LinkSwiftAndObjectiveC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkSwiftAndObjectiveC/LinkSwiftAndObjectiveC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
