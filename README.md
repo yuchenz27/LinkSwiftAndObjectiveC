@@ -1,3 +1,3 @@
 # LinkSwiftAndObjectiveC
 
-A simple project which tests how to call Swift code in Objective C and how to call Objective C code in Swift.
+A simple project which shows how to call Swift code in Objective C and how to call Objective C code in Swift.
